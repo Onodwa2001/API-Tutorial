@@ -7,19 +7,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test API</title>
     <script defer src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <form action="">
-        <div class="search">
-            <label for="">Search for music</label>
-            <input type="text" placeholder="Search for music" id="search-input">
-        </div>
-        <div class="button">
-            <button id="search">Search</button>
-        </div>
-    </form>
+    <h2 style="text-align: center;">Search for music</h2>
+
+    <div class="form">
+        <form action="">
+            <div class="search">
+                <input type="text" placeholder="Search for music" id="search-input">
+            </div>
+            <div class="button">
+                <button id="search">Search</button>
+            </div>
+        </form>
+    </div>
+
+    <h2 id="loading">Getting data...</h2>
+
+    <div class="card-section" id="card-section">
+
+        <!-- cards to be displayed -->
+        
+    </div>
 
 
     <footer>
